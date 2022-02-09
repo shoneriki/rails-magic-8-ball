@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsMagic8Ball</title>
+    <title>Magic 8 Ball</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <%= favicon_link_tag asset_path('magic-8-ball.ico') %>
   </head>
 
   <body>
     <div class="top-nav">
-      <h1>Magic_8_Ball</h1>
+      <h1>Magic-8-Ball</h1>
     </div>
     <%= yield %>
   </body>
