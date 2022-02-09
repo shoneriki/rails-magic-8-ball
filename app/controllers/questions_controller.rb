@@ -3,6 +3,6 @@ class QuestionsController < ApplicationController
   end
 
   def reply
-
+    
   end
 end
