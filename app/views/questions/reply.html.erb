@@ -1,7 +1,9 @@
-<div>
+<div class="your-question">
   <p><%= params[:question] %></p>
 </div>
 
-<div>
+<div class="reply">
   <p><%= @reply %></p>
 </div>
+
+<%= link_to "Ask something", "/ask" %>

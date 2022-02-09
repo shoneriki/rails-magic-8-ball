@@ -1,7 +1,36 @@
 @import "bootstrap/scss/bootstrap";
 
 body {
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
   text-align: center;
   font-family: Helvetica;
   padding: 8px;
+}
+
+.top-nav {
+  background-color:white;
+  color: black;
+}
+
+.your-question {
+  color: white;
+}
+
+.reply {
+  color: white;
+  background: blue;
+}
+
+.ask-div {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 16px;
+  text-align: center;
+
 }
