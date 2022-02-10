@@ -2,7 +2,8 @@
 
 body {
   width: 100%;
-  background-color: black;
+  background-color: gray;
+  color: black;
   margin: 0 auto;
   text-align: center;
   font-family: Helvetica;
@@ -10,7 +11,7 @@ body {
 }
 
 .top-nav {
-  color: white;
+  color: black;
 }
 
 .your-question {
@@ -23,8 +24,8 @@ body {
 }
 
 .ask-div {
-  background-color: black;
-  color: white;
+  background-color: gray;
+  color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
